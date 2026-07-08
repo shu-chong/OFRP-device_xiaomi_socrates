@@ -60,8 +60,8 @@ export OF_USE_AIDL_BOOT_CONTROL=1
 export FOX_ENABLE_KERNELSU_SUPPORT=1
 export FOX_ENABLE_KERNELSU_NEXT_SUPPORT=1
 export FOX_ENABLE_SUKISU_SUPPORT=1
-# For Xiaomi NUWA
-export FOX_VARIANT="Xiaomi_nuwa"
+# For Xiaomi socrates
+export FOX_VARIANT="Xiaomi_socrates"
 export FOX_MAINTAINER_PATCH_VERSION=$(date +%y%m%d)
 export OF_MAINTAINER="Adontoo"
 export OF_MAGISK="/tmp/misc/Magisk-v29.0.zip"
@@ -76,7 +76,7 @@ export OF_SUPPORT_VBMETA_AVB2_PATCHING=1
 export OF_ENABLE_FRP_ADDON=1
 export OF_ENABLE_WLAN=1
 
-F=$(find "device" -maxdepth 2 -name "nuwa")
+F=$(find "device" -maxdepth 2 -name "socrates")
 # Change splash to black
 \cp -fp bootable/recovery/gui/theme/portrait_hdpi/splash.xml "$F"/recovery/root/twres/splash.xml
 sed -i 's/value="#D34E38"/value="#000000"/g' "$F"/recovery/root/twres/splash.xml
