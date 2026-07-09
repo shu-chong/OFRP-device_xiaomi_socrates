@@ -166,7 +166,7 @@ TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID := true
 TW_SCREEN_BLANK_ON_BOOT := true
 
-TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko goodix_core.ko qti_battery_charger.ko rproc_qcom_common.ko q6_dlkm.ko qcom_q6v5.ko qcom_q6v5_pas.ko qcom_sysmon.ko nxp-nci.ko qcom-hv-haptics.ko adsp_loader_dlkm.ko goodix_core.ko"
+#TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko goodix_core.ko qti_battery_charger.ko rproc_qcom_common.ko q6_dlkm.ko qcom_q6v5.ko qcom_q6v5_pas.ko qcom_sysmon.ko nxp-nci.ko qcom-hv-haptics.ko adsp_loader_dlkm.ko goodix_core.ko"
 #TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko goodix_core.ko"
 
 TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
