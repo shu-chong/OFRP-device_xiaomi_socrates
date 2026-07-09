@@ -19,7 +19,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_OTA_ASSERT_DEVICE := socrates
 
 # Kernel modules
-TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko goodix_core.ko"
+TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko goodix_core.ko  qcom-hv-haptics.ko"
 
 # Theme
 TW_STATUS_ICONS_ALIGN := center
