@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_nuwa.mk
+    $(LOCAL_DIR)/twrp_socrates.mk

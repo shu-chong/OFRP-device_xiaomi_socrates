@@ -42,7 +42,7 @@ export OF_FORCE_PREBUILT_KERNEL=1
 export OF_ENABLE_LPTOOLS=1
 export OF_ENABLE_ALL_PARTITION_TOOLS=1
 export FOX_VIRTUAL_AB_DEVICE=1
-export OF_DYNAMIC_FULL_SIZE=11811160064
+export OF_DYNAMIC_FULL_SIZE=9663676416
 export OF_ENABLE_FS_COMPRESSION=1
 export OF_DISPLAY_FORMAT_FILESYSTEMS_DEBUG_INFO=1
 export FOX_SETTINGS_ROOT_DIRECTORY=/persist
@@ -60,8 +60,8 @@ export OF_USE_AIDL_BOOT_CONTROL=1
 export FOX_ENABLE_KERNELSU_SUPPORT=1
 export FOX_ENABLE_KERNELSU_NEXT_SUPPORT=1
 export FOX_ENABLE_SUKISU_SUPPORT=1
-# For Xiaomi NUWA
-export FOX_VARIANT="Xiaomi_nuwa"
+# For Xiaomi SOCRATES
+export FOX_VARIANT="Redmi_K60_Pro"
 export FOX_MAINTAINER_PATCH_VERSION=$(date +%y%m%d)
 export OF_MAINTAINER="Adontoo"
 export OF_MAGISK="/tmp/misc/Magisk-v30.7.zip"
@@ -76,7 +76,7 @@ export OF_ENABLE_FRP_ADDON=1
 export OF_ENABLE_WLAN=1
 export FOX_ADD_API_V36_PREBUILTS=1
 
-F=$(find "device" -maxdepth 2 -name "nuwa")
+F=$(find "device" -maxdepth 2 -name "socrates")
 
 if [ -f "/home/adontoo/android/Magisk-v30.7.zip" ]; then
         mkdir -p /tmp/misc/
